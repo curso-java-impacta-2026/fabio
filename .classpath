@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="exemplo2/src"/>
+	<classpathentry kind="src" path="exemplo3/src"/>
+	<classpathentry kind="src" path="exemploHeranca/src"/>
+	<classpathentry kind="src" path="Laboratório1/src"/>
+	<classpathentry kind="src" path="laboratorios/src"/>
+	<classpathentry kind="src" path="prateleiraDigital/src"/>
+	<classpathentry kind="src" path="primeiroProjeto/src"/>
+	<classpathentry kind="src" path="projetoIMDB/src"/>
+	<classpathentry kind="output" path="exemplo2/bin"/>
+</classpath>
