@@ -7,14 +7,13 @@ public class RG {
 	
 		
 	
-	private RG(int numero, String dataNasc) {
+	RG(int numero, String dataNasc) {
 		super();
 		this.numero = numero;
 		this.dataNasc = dataNasc;
 			
 	}
 		
-	
 	private RG() {
 		super();
 		// TODO Auto-generated constructor stub

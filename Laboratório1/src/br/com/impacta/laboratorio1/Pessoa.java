@@ -12,7 +12,7 @@ public abstract class Pessoa {
 		super();
 	}
 
-	private Pessoa(String nome, int idade, char sexo, RG rg) {
+	protected Pessoa(String nome, int idade, char sexo, RG rg) {
 		super();
 		this.nome = nome;
 		this.idade = idade;
