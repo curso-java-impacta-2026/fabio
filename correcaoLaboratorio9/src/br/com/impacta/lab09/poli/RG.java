@@ -1,26 +1,13 @@
-package br.com.impacta.laboratorio1;
+package br.com.impacta.lab09.poli;
 
 public class RG {
-	
 	private int numero;
 	private String dataNasc;
 	
-		
-	//Criando os construtores
-	
-	RG(int numero, String dataNasc) {
-		super();
+	public RG(int numero, String dataNasc){
 		this.numero = numero;
 		this.dataNasc = dataNasc;
-			
 	}
-		
-	private RG() {
-		super();
-		
-	}
-
-    //Criando getter e setters
 	
 	public int getNumero() {
 		return numero;
@@ -35,5 +22,5 @@ public class RG {
 		this.dataNasc = dataNasc;
 	}
 	
-	
+
 }
