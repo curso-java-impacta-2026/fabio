@@ -4,15 +4,37 @@ public class Executando {
 
     public static void main(String[] args) {
 
-        Eletrodomestico aparelho;
+//        Eletrodomestico aparelho;
 
-        aparelho = new Geladeira();
-        aparelho.ligar();
+//        aparelho = new Geladeira();
+//        aparelho.ligar();
+//        System.out.println("Voltagem: " + aparelho.VOLTAGEM);
+//
+//        aparelho = new Televisao();
+//        aparelho.ligar();
+//        System.out.println("Voltagem: " + aparelho.VOLTAGEM);
+//
+//        aparelho = new Microondas();
+//        aparelho.ligar();
+        
+        	Eletrodomestico tv = new Televisao();
 
-        aparelho = new Televisao();
-        aparelho.ligar();
+        	tv = new Televisao();
+        	tv.ligar();
+        	tv.acionarTimer(6);
+//
+// 
+//        Eletrodomestico a, b, c, d, e, f, g;
+//
+//        a = new Geladeira();
+//        b = new Televisao();
+//        c = new Televisao();
+//        d = new Geladeira();
+//        e = new Microondas();
+//        f = new Televisao();
+//        g = new Microondas();
+//
+//        Eletrodomestico.ligarTudo(a, b, c, d, e, f, g);
 
-        aparelho = new Microondas();
-        aparelho.ligar();
-    }
+       }
 }
