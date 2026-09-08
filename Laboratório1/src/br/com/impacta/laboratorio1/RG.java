@@ -8,17 +8,22 @@ public class RG {
 		
 	//Criando os construtores
 	
-	RG(int numero, String dataNasc) {
-		super();
+	public RG(int numero, String dataNasc){
 		this.numero = numero;
 		this.dataNasc = dataNasc;
-			
 	}
-		
-	private RG() {
-		super();
-		
-	}
+	
+//	RG(int numero, String dataNasc) {
+//		super();
+//		this.numero = numero;
+//		this.dataNasc = dataNasc;
+//			
+//	}
+//		
+//	private RG() {
+//		super();
+//		
+//	}
 
     //Criando getter e setters
 	

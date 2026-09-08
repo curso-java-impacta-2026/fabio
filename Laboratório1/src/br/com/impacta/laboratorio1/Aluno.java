@@ -35,23 +35,23 @@ public class Aluno extends Pessoa {
 	}
 	
 	@Override
-	public void falar(String frase) {
-		System.out.println(getNome() + " falou: " + frase);		
+	public void falar(String fala) {
+		System.out.println(getNome() + ": " + fala);		
 		
 	}
 		
 	@Override
 	public void mostrarDados() {
 		
-		System.out.println("Nome: " + getNome());
+		System.out.println("--- Aluno: " + getNome() + "---");
 		
 		System.out.println("Idade: " + getIdade());
 		
 		System.out.println("Sexo: " + getSexo());
 		
-		System.out.println("Número RG: " + getRg());
+		System.out.println("Número RG: " + getRg().getNumero());
 		
-		System.out.println("Data de Nascimento: " + getRg());
+		System.out.println("Data de Nascimento: " + getRg().getDataNasc());
 		
 		System.out.println("Mensalidade: " + mensalidade);
 		
