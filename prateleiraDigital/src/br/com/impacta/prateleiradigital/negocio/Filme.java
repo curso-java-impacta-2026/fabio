@@ -39,10 +39,6 @@ public class Filme {
 		this.url = url;
 	}
 
-	public Filme(String titulo) {
-		this.titulo = titulo;
-	}
-
 	/**
 	 * @return the titulo
 	 */
