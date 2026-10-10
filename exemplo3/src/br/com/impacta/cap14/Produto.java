@@ -10,6 +10,10 @@ public class Produto {
 		this.tamanho = tamanho;
 	}
 
+	public Produto(String string, String string2, double d) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public double aumentarPreco(double precoAtual, double taxaAumento) {
 		double aumento = precoAtual * taxaAumento / 100;
 		double precoAumentado = precoAtual + aumento;
@@ -30,5 +34,10 @@ public class Produto {
 
 	public void setTamanho(int tamanho) {
 		this.tamanho = tamanho;
+	}
+
+	public double getPreco() {
+
+		return 0;
 	}
 }
