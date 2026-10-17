@@ -35,8 +35,8 @@ public class TesteCriacaoFilme {
 		System.out.println("Insira o gênero do Filme : ");
 		f.setGeneros(scan.next());
 
-		System.out.println("Insira número de votos do Filme : ");
-		f.setNumDeVotos(scan.nextInt());
+		// System.out.println("Insira número de votos do Filme : ");
+		// f.setNumDeVotos(scan.nextInt());
 
 		System.out.println("Insira a URL do Filme : ");
 		f.setUrl(scan.next());
@@ -49,11 +49,11 @@ public class TesteCriacaoFilme {
 		System.out.println("Duração : " + f.getDuracao());
 		System.out.println("Ano lançamento : " + f.getAno());
 		System.out.println("Gênero : " + f.getGeneros());
-		System.out.println("Qualificação : " + f.getNumDeVotos());
+		// System.out.println("Qualificação : " + f.getNumDeVotos());
 		System.out.println("Página do Filme : " + f.getUrl());
 
 		// Gravar os dados na base.
-		fc.criarFilme(f);
+		// fc.criarFilme(f);
 
 		//
 //		f = fc.criarFilme("Pânico", "Rogério", 5, 180, 2026, "Suspense", 20000, "http://panico.com");
