@@ -7,9 +7,9 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class TesteConexaoJDBC {
-	static String url = "jdbc:mysql://localhost/...";
-	static String user = "usuario";
-	static String password = "senha";
+	static String url = "jdbc:mysql://localhost:3306/impacta";
+	static String user = "root";
+	static String password = "impacta1";
 
 	public static void main(String[] args) {
 		openDB();
@@ -18,7 +18,7 @@ public class TesteConexaoJDBC {
 	public static void openDB() {
 		try (Connection con = DriverManager.getConnection(url, user, password);
 				Statement st = con.createStatement();
-				ResultSet rs = st.executeQuery("Select * from tabela");) {
+				ResultSet rs = st.executeQuery("Select * from alunos");) {
 			System.out.println("\nConexão estabelecida com sucesso!\n");
 
 		} catch (SQLException e) {
