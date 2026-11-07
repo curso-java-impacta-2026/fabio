@@ -14,12 +14,13 @@ public class ExemploPreparedStatement {
 
 			PreparedStatement ps = cn.prepareStatement("INSERT INTO alunos VALUES (?, ?, ?)");
 
-			ps.setInt(1, 3);
-			ps.setString(2, "Manuel da Silva");
-			ps.setString(3, "(19) 94513-1211");
-			ps.executeUpdate();
+			ps.setInt(1, 4);
+			ps.setString(2, "Francisco Chiquinho");
+			ps.setString(3, "(12) 93233-1515");
+			int retorno = ps.executeUpdate();
 
 			System.out.println("Aluno cadastrado com sucesso.");
+			System.out.println("Retorno do método: " + retorno);
 
 			ps.close();
 			cn.close();
