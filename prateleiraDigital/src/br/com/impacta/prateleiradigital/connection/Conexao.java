@@ -18,10 +18,13 @@ public class Conexao {
 		String senha = "impacta1";
 
 		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			con = DriverManager.getConnection(url, usuario, senha);
 			return con;
 
 		} catch (SQLException e) {
+			e.printStackTrace();
+		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}
 
